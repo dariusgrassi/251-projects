@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dariusgrassi/Documents/Fall 2019/CS251/Project2/bst.h
+iostream
+-
+algorithm
+-
+
+/Users/dariusgrassi/Documents/Fall 2019/CS251/Project2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+bst.h
+/Users/dariusgrassi/Documents/Fall 2019/CS251/Project2/bst.h
+
